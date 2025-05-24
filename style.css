@@ -1,0 +1,43 @@
+body {
+    font-family: Montserrat;
+    margin: 20px;
+    height: 100vh;
+    justify-items: center;
+    background-color: #FFFCF1;
+}
+h1, ul {
+    color: #36372D;
+}
+section {
+    background-color: #E6E5C0;
+    /*background: rgb(230 233 224);*/
+    padding: 20px 10px 24px;
+    margin: 15px;
+    border-radius: 20px;
+    display: flex;
+    width: 400px;
+}
+div {
+    text-align: center;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+button {
+    background-color: rgb(78 119 67);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 16px;
+}
+button:hover {
+    background-color: rgb(42 82 35);
+}
+#nomeCliente, #idadeCliente, #emailCliente {
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+}
